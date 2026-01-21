@@ -26,7 +26,7 @@ class Usuario {
                          objBotones += '<button id="btnEditarUsuario" type="button" class="btn btn-info" usuario="' + element.id  + '" nombre="' + element.nombre +'" email="' + element.email + '" sede_id="' + element.sede_id + '" activo="' + element.activo +'"><i class="bi bi-pen"></i></button>';
                            objBotones += '<button id="btnEliminarUsuario" type="button" class="btn btn-danger" usuario="' + element.id + '"><i class="bi bi-x"></i></button>';
                         objBotones += '</div>';
-                        dataSet.push([element.nombre , element.email , element.sede_nombre, element.activo , objBotones]);
+dataSet.push([element.nombre , element.email , element.sede_id, element.activo , objBotones]);
                     });
 
                    $('#tablaUsuario').DataTable({
