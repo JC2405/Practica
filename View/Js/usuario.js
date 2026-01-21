@@ -7,4 +7,4 @@
         let objTablaUsuario = new Usuario(objData);
         objTablaUsuario.mostrarUsuario();
     }
-})
+})();

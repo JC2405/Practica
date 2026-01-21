@@ -7,12 +7,11 @@
                 <table id="tablaUsuario" class="table table-hoverm-top" style="width: 100% ; margin-top: 20px;">
                     <thead class="table-light">
                         <tr>
-                            <th scope="col">Nombre</th>
-                            <th scope="col">Email</th>
-                            <th scope="col">Sede</th>
-                            <th scope="col">Activo</th>
-                             <th scope="col"></th>
-                            <th scope="col"></th>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Sede</th>
+                        <th scope="col">Activo</th>
+                        <th scope="col">Acciones</th>
                         </tr>
                     </thead>
                     <tbody>
